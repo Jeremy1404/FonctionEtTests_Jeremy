@@ -34,6 +34,7 @@ def moyenne_couleur_legos(liste_couleur_legos: list[str]):
     :return:la moyenne
     """
     liste_nb_legos_couleur = []
+
     for i in range(len(liste_couleur_legos)):
         couleur = liste_couleur_legos[i]
         liste_nb_legos_couleur.append(liste_couleur_legos.count(couleur))
@@ -47,5 +48,5 @@ def moyenne_couleur_legos(liste_couleur_legos: list[str]):
     moyenne = somme//len(liste_nb_legos_couleur)
     return moyenne
 
-liste_couleur_legos = ["bleu","bleu","rouge","mauve","vert","rouge","rose","mauve","or","rose","bleu","rouge","vert","argent"]
-print(moyenne_couleur_legos(liste_couleur_legos))
+#liste_couleur_legos = ["bleu","bleu","rouge","mauve","vert","rouge","rose","mauve","or","rose","bleu","rouge","vert","argent"]
+#print(moyenne_couleur_legos(liste_couleur_legos))
