@@ -22,7 +22,7 @@ qui retourne il y a combien de blocs de chaque couleur en moyenne
 # Répartition des tâches :
 """                     
 a   b   c
-1   2   3   Nom :                   
-2   3   1   Nom :                   
-3   1   2   Nom :                   
+1   2   3   Nom : Jérémy
+2   3   1   Nom : Clovis     
+3   1   2   Nom : Mya
 """
